@@ -1,7 +1,10 @@
-Shop Manager Project
+# Shop Manager Project
 =================
 
-User stories:
+This is a simple shop management program that allows shop managers to perform basic CRUD (Create, Read, Update, Delete) operations on their shop items and orders.
+
+
+## User stories:
 -------
 
 ```
@@ -34,6 +37,8 @@ So I can manage orders
 I want to be able to create a new order.
 ```
 
+## Usage
+To use the program, simply run the app.rb file in your terminal using the command ruby app.rb. Once the program is running, you can use the following options:
 
 ```
 # ruby app.rb
@@ -47,3 +52,13 @@ What do you want to do?
   5 = exit
 
 ```
+By selecting each option, you can interact with the program and perform the corresponding operation.
+
+## Technologies:
+
+- Ruby 3.0.2
+- RSpec (for testing)
+- Simplecov and Simplecov-console (for test coverage)
+- Rubocop (for code analysis and style enforcement)
+- PostgreSQL (for database management)
+
